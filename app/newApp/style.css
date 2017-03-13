@@ -1,0 +1,28 @@
+body {
+    margin: 30px 0px;
+}
+.progress {
+    position: relative;
+	height: 35px;
+	text-align: center;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 0, 0);
+}
+.progress > .progress-completed {
+	position: absolute;	
+	left: 50%;
+	font-weight: 800;
+	padding: 8px 10px 2px;
+}
+.difference{
+	padding-top:25px;
+}
+.backChange {
+	background-color: rgb(255, 0, 0);
+}
